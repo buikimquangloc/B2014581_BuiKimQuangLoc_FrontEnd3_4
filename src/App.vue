@@ -1,17 +1,15 @@
 <script>
-import AppHeader from "@/components/AppHeader.vue";
+import Header from "./components/quanly/header.vue";
 export default {
   components: {
-    AppHeader,
+    appHeader: Header,
   },
 };
 </script>
 <template>
   <div id="app">
-    <AppHeader />
-    <div class="container mt-3">
+    <!-- <app-Header></app-Header> -->
       <router-view />
-    </div>
   </div>
 </template>
 <style>
